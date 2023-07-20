@@ -1,0 +1,25 @@
+/*-----Background Colors-----*/
+
+
+
+/*-----Header-----*/
+
+.logo {
+    text-decoration: none;
+
+}
+
+/*-----Hero image-----*/
+
+#bg-hero-image {
+    background-image: url(/assets/images/todd-promo-4.jpg));
+    width: 100%;
+    height: 300px;
+}
+
+/*-----Footer-----*/
+
+/*----------*/
+/*----------*/
+/*----------*/
+/*----------*/
