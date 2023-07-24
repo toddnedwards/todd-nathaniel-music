@@ -7,7 +7,7 @@ h4,
 h5,
 h6,
 p {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 /*-----Background Colors-----*/
@@ -18,19 +18,19 @@ footer {
 }
 
 header {
-    width: 100%;
+    background-color: rgba(1, 1, 90, 0.5);
 }
 
-.why-book-me {
-    background-color: #4f2bc4;
-}
+
+.why-book-me {}
 
 /*-----Header-----*/
 
 header {
     position: fixed;
-    background-color: rgba(1, 1, 90, 0.5);
     z-index: 50;
+    height: 90px;
+    width: 100%;
 }
 
 .navbar-nav {
@@ -79,7 +79,7 @@ header {
 }
 
 .about-me h3 {
-    font-family: "roboto" sans-serif;
+    font-family: "roboto", sans-serif;
     font-size: 35px;
     font-weight: 400;
     margin-top: 60px;
@@ -93,34 +93,49 @@ header {
 
 /*-----why book me-----*/
 
-#img-why-book {
+#why-book {
 
-    background-image: url(/assets/images/toddpromoheadshot.png);
-    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#reasons-left {
+    width: 33%;
+    text-align: right;
+}
+
+#reasons-center {
+    width: 33%;
+    width: 250px;
     height: 250px;
-    padding: 0 10px 0 10px;
-    background-position: cover;
     border-radius: 50%;
+    background: url('/assets/images/toddpromo300x300.jpg') no-repeat center center;
+    margin: 0 auto;
 
 }
 
-.reasons-left {
-    padding-left: 250px;
-
+#why-book-me i {
+    color: red;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 
-.reasons-right {
-    padding-right: 250px;
+.why-book-me-title {
+    margin: 20px 0 20px 0;
+}
+
+#reasons-right {
+    width: 33%;
 }
 
 /*-----reviews-----*/
 
 .reviews {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .reviews i {
-    color: rgb(219, 219, 46);
+    color: yellow;
     margin-top: 50px;
     margin-bottom: 10px;
 }
@@ -138,6 +153,7 @@ footer {
     float: right;
     padding-right: 50px;
     color: #fff;
+    font-size: 30px;
 }
 
 .cookies-privacy-link {
@@ -163,6 +179,10 @@ footer {
     text-transform: uppercase;
 }
 
+hr {
+    border: 1px solid rgba(1, 1, 90, 0.5);
+}
+
 
 
 
@@ -182,9 +202,91 @@ footer {
     margin: 0 0 0 0;
 }
 
-/*-----tour.html-----*/
+.contact-alt {
+    margin: 30px 0;
+}
 
-.tour-title {
+
+.top-page-title {
     text-align: center;
     padding-top: 50px;
+    clear: both;
+    padding-top: 110px;
+}
+
+.center-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.center-form input {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    width: 20%;
+}
+
+/*-----tour.html-----*/
+
+.tour-dates {
+    margin: 50px 0;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #000000;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: rgba(1, 1, 90, 0.8);
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+/*-----media.html-----*/
+
+.media-image {
+    width: 33%;
+    overflow: hidden;
+}
+
+.media-image-container {
+    height: 700px;
+}
+
+.media a {
+    color: red;
+    text-align: center;
 }

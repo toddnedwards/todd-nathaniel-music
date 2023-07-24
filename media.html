@@ -26,9 +26,9 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="setlist.html">Setlist</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="media.html">Media</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="media.html">Media</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="tour.html">Tour</a></li>
-                    <li class="active nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
 
@@ -38,29 +38,37 @@
 
     <section>
         <div class="top-page-title">
-            <h1>Contact Us</h1>
-            <p>Have questions or looking to book a date? Contact us using the form below!</p>
+            <h1>Media</h1>
+            <h2>See images of previous events i've played and my promotional video!</h2>
+            <p>click to see <br><span><a href="#gallery">Gallery</a></span>
+                <span><a href="#video">Video</a></span>
+            </p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2 class="text-center">Gallery</h2>
+        <div class="row media-image-container">
+            <div class="col-4 media-image">
+                <div><img src="/assets/images/toddpromo4.jpeg"></div>
+            </div>
+            <div class="col-4 media-image">
+                <div><img src="/assets/images/toddpromo4.jpeg"></div>
+            </div>
+            <div class="col-4 media-image">
+                <div><img src="/assets/images/toddpromo4.jpeg"></div>
+            </div>
         </div>
 
-        <div class="center-form">
-            <form>
-                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required />
-                <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                <textarea rows="6" name="message" id="message" class="form-control"
-                    placeholder="Type a message for us here and we'll get back to you as soon as possible!"
-                    required></textarea>
-                <div class="form-row text-center">
-                    <div class="col">
-                        <button type="submit" class="btn btn-primary">Send</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="contact-alt text-center">
-            <h3>Alternatively, contact us on:</h3>
-            PUT A TABLE HERE!!!!!
-        </div>
+    </section>
 
+    <hr>
+
+    <section id="video">
+        <div class="video-container">
+            <h2 class="text-center">Video</h2>
+            <video src=""></video>
+        </div>
     </section>
 
     <footer>
