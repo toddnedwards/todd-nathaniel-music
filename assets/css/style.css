@@ -12,8 +12,12 @@ p {
 
 /*-----Background Colors-----*/
 
-#footer {
+footer {
     background-color: #979797;
+    width: 100%;
+}
+
+header {
     width: 100%;
 }
 
@@ -23,9 +27,18 @@ p {
 
 /*-----Header-----*/
 
+header {
+    position: fixed;
+    background-color: rgba(1, 1, 90, 0.5);
+    z-index: 50;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
 .logo {
     text-decoration: none;
-    color: #5e5e5e;
 }
 
 .navbar li {
@@ -37,10 +50,6 @@ p {
     padding-right: 10px;
 }
 
-hr {
-    border: 1px solid #858585;
-}
-
 .header-title {
     font-family: "roboto", sans-serif;
     font-weight: 700;
@@ -49,6 +58,8 @@ hr {
     padding-top: 400px;
 }
 
+
+/*-----navigation-----*/
 
 /*-----Hero image-----*/
 
@@ -118,7 +129,7 @@ hr {
 
 /*-----Footer-----*/
 
-#footer {
+footer {
     padding: 50px 0 50px 0;
     border-top: 1px solid;
 }
@@ -150,4 +161,30 @@ hr {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+
+
+
+/*-----Setlist.HTML-----*/
+
+.setlist h3 {
+    padding-left: 15px;
+}
+
+.setlist-download {
+    padding: 50px 0 50px 0;
+}
+
+/*-----contact.html-----*/
+
+.contact-form {
+    margin: 0 0 0 0;
+}
+
+/*-----tour.html-----*/
+
+.tour-title {
+    text-align: center;
+    padding-top: 50px;
 }
