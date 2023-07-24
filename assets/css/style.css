@@ -114,8 +114,8 @@ header {
 }
 
 #why-book-me i {
-    color: red;
-    font-size: 50px;
+    color: rgba(1, 1, 90, 0.5);
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -131,13 +131,15 @@ header {
 
 .reviews {
     text-align: center;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(1, 1, 90, 0.5);
 }
 
 .reviews i {
     color: yellow;
     margin-top: 50px;
     margin-bottom: 10px;
+    font-size: 40px;
 }
 
 
@@ -175,14 +177,22 @@ footer {
 
 /*-----general-----*/
 
+a:hover {
+    color: rgba(1, 1, 90, 0.8);
+}
+
 .uppercase {
     text-transform: uppercase;
 }
 
 hr {
     border: 1px solid rgba(1, 1, 90, 0.5);
+    margin: 0;
 }
 
+.title {
+    padding: 30px 0 20px 0;
+}
 
 
 
@@ -204,6 +214,12 @@ hr {
 
 .contact-alt {
     margin: 30px 0;
+
+}
+
+.contact-table {
+    margin: 30px auto;
+    text-align: left;
 }
 
 
@@ -215,7 +231,7 @@ hr {
 }
 
 .center-form {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -224,8 +240,12 @@ hr {
 }
 
 .btn-primary {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 20%;
+}
+
+.btn-primary:hover {
+    background-color: rgba(1, 1, 90, 0.5);
 }
 
 /*-----tour.html-----*/
@@ -278,15 +298,23 @@ hr {
 /*-----media.html-----*/
 
 .media-image {
-    width: 33%;
-    overflow: hidden;
+    width: 100%;
+
 }
 
 .media-image-container {
-    height: 700px;
+    height: 600px;
 }
 
-.media a {
+.top-page-title a {
     color: red;
     text-align: center;
+    font-size: 20px;
+    margin: 30px;
+    margin-top: 10px;
+}
+
+#video .video-container {
+    justify-content: center;
+
 }
