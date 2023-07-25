@@ -21,13 +21,19 @@ h2 {
 h3,
 h4 {
     font-weight: 400;
+    font-family: "roboto", sans-serif;
+    margin-top: 60px;
+    color: #000000;
+    font-size: 35px;
 }
+
 
 /*-----Background Colors-----*/
 
 footer {
     background-color: #979797;
     width: 100%;
+
 }
 
 header {
@@ -36,7 +42,7 @@ header {
 
 #why-book-me {
 
-    background-color: rgba(255, 126, 51, 0.7);
+    background-color: #ff7e33;
 }
 
 /*-----Header-----*/
@@ -93,13 +99,7 @@ header {
     height: 300px;
 }
 
-.about-me h3 {
-    font-family: "roboto", sans-serif;
-    font-size: 35px;
-    font-weight: 400;
-    margin-top: 60px;
-    color: #000000;
-}
+
 
 .about-me p {
     margin-top: 20px;
@@ -108,11 +108,14 @@ header {
 
 /*-----why book me-----*/
 
-#why-book-me {
 
-    height: 500px;
+#why-book-me h3 {
     color: #fff;
+}
 
+#why-book-me h4 {
+    color: #fff;
+    margin: 5px 0;
 }
 
 #why-book-me #reasons-left {
@@ -124,8 +127,9 @@ header {
     width: 33%;
     width: 250px;
     height: 250px;
-    border-radius: 50%;
+
     background: url('/assets/images/toddpromo300x300.jpg') no-repeat center center;
+    border-radius: 50% 0 50% 0;
     margin: 50px auto;
 
 }
@@ -134,7 +138,7 @@ header {
 
     font-size: 40px;
     margin-bottom: 20px;
-    color: blue;
+    color: #ff0634;
 }
 
 .why-book-me-title {
@@ -210,7 +214,6 @@ hr {
 .title {
     padding: 30px 0 20px 0;
 }
-
 
 
 /*-----Setlist.HTML-----*/
@@ -319,7 +322,7 @@ hr {
 
 .media-image {
     width: 100%;
-
+    padding: 10px 10px;
 }
 
 .media-image-container {
@@ -331,4 +334,32 @@ hr {
     font-size: 20px;
     margin: 30px;
     margin-top: 10px;
+}
+
+#video {}
+
+/*-----media queries-----*/
+
+@media screen and (max-width:992px) {
+
+    #why-book-me #reasons-left {
+        text-align: center;
+    }
+
+    #why-book-me #reasons-right {
+        text-align: center;
+    }
+
+    .about-me {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width:768px) {
+        #why-book-me h4 {
+            margin-bottom: 10px;
+        }
+    }
+
+
 }
