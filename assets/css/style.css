@@ -65,7 +65,7 @@ header {
 
 .navbar {
     padding: 0.5rem 0rem;
-    font-size:25px;
+    font-size:20px;
 }
 
 .navbar li {
@@ -273,6 +273,7 @@ hr {
 .btn-primary {
     margin-top: 20px;
     width: 20%;
+    
 }
 
 .btn-primary:hover {
@@ -286,7 +287,7 @@ hr {
 }
 
 .timeline-item {
-    padding: 2em 2em 0em 2em;
+    padding: 1em 2em 0em 2em;
     position: relative;
     color: #000000;
     border-left: 1px solid;
@@ -389,6 +390,10 @@ video {
 
     .navbar-nav {
     background: rgba(1, 1, 90, 0.5);
+
+    .navbar-brand {
+        padding-left: 2em;
+    }
 }
 
     .header-title {
@@ -399,6 +404,13 @@ video {
         margin-top: 20px;
     }
 
+    .btn-primary {
+        width: 30%;
+    }
+
+    .center-form {
+        width: 70%
+    }
 }
 
 
