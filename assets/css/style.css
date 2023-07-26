@@ -43,6 +43,7 @@ header {
 #why-book-me {
 
     background-color: #ff7e33;
+    color: #ffffff
 }
 
 /*-----Header-----*/
@@ -131,6 +132,7 @@ header {
     background: url('/assets/images/toddpromo300x300.jpg') no-repeat center center;
     border-radius: 50% 0 50% 0;
     margin: 50px auto;
+    padding: 0 0 0 0;
 
 }
 
@@ -323,10 +325,7 @@ hr {
 .media-image {
     width: 100%;
     padding: 10px 10px;
-}
-
-.media-image-container {
-    height: 600px;
+    margin-bottom: 20px;
 }
 
 .media-top-links {
@@ -336,7 +335,9 @@ hr {
     margin-top: 10px;
 }
 
-#video {}
+video {
+    margin-bottom: 20px;
+}
 
 /*-----media queries-----*/
 
@@ -355,11 +356,26 @@ hr {
         margin: 0 auto;
     }
 
-    @media screen and (max-width:768px) {
-        #why-book-me h4 {
-            margin-bottom: 10px;
+}
+
+@media screen and (max-width:768px) {
+    #why-book-me h4 {
+        margin-bottom: 10px;
         }
+
+
+    .socials a i {
+        padding-right: 15px;
+        }
+
+    .cookies-privacy-link {
+        padding-left: 15px;
+        }
+    
+    video {
+        height:100%;
+        width:100%;
     }
 
+    }
 
-}
