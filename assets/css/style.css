@@ -42,7 +42,7 @@ header {
 
 #why-book-me {
 
-    background-color: #ff7e33;
+    background-color: #d7570d;
     color: #ffffff
 }
 
@@ -390,20 +390,20 @@ video {
         .navbar-brand {
             padding-left: 2em;
         }
-    }
 
-    .header-title {
-        padding-top: 350px;
-    }
+        .header-title {
+            padding-top: 350px;
+        }
 
-    hr {
-        margin-top: 20px;
-    }
+        hr {
+            margin-top: 20px;
+        }
 
-    .btn-primary {
-        width: 30%;
-    }
+        .btn-primary {
+            width: 30%;
+        }
 
-    .center-form {
-        width: 70%
+        .center-form {
+            width: 70%
+        }
     }

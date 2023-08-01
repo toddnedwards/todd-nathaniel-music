@@ -241,7 +241,7 @@ I used this mark up cheat sheet that I found on the slack community:
 <https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md>
 
 Shields.io badges we’re created for readme.md file using the markup code from:
-https://shields.io/badges
+<https://shields.io/badges>
 
 The use of the coolors website for the colours graph was provided from <https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux>
 

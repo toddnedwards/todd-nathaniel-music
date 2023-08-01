@@ -1,6 +1,6 @@
-![Todd Nathaniel Music Responive website](assets/images/ToddNathanielWebsiteResponsive.png)
-
 # Testing Documentation
+
+![Todd Nathaniel Music Responive website](assets/images/ToddNathanielWebsiteResponsive.png)
 
 ## Contents
 
