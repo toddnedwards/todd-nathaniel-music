@@ -37,7 +37,7 @@ footer {
 }
 
 header {
-    background: rgba(1, 1, 90, 0.8);
+    background: rgba(1, 1, 90, 1);
 }
 
 #why-book-me {
@@ -85,6 +85,11 @@ header {
     padding-top: 400px;
 }
 
+.navbar-nav .nav-link {
+    background-color: rgba(1, 1, 90, 1);
+    width: 100%;
+}
+
 
 /*-----navigation-----*/
 
@@ -126,7 +131,7 @@ header {
 
 #why-book-me #reasons-left {
     width: 33%;
-    text-align: right;
+    text-align: left;
 }
 
 #reasons-center {
@@ -205,6 +210,15 @@ footer {
 
 /*-----general-----*/
 
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
 
 a:hover {
     color: rgba(1, 1, 90, 0.8);
@@ -272,7 +286,7 @@ hr {
 
 .btn-primary {
     margin-top: 20px;
-    width: 20%;
+    width: 50%;
 
 }
 
@@ -369,7 +383,8 @@ video {
 
     }
 
-    @media screen and (min-width:320px) {
+    @media (min-width: 320px) and (max-width: 480px) {
+
         #why-book-me h4 {
             margin-bottom: 10px;
         }
@@ -399,9 +414,6 @@ video {
             margin-top: 20px;
         }
 
-        .btn-primary {
-            width: 30%;
-        }
 
         .center-form {
             width: 70%

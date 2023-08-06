@@ -51,3 +51,55 @@ Error: Unclosed element section. From line 46, column 5; to line 46, column 13 (
 Contact.html-
 
 ### Lighthouse
+
+### Desktop Results
+
+- Index Page
+
+![Lighthouse index page desktop view](lighthouse/)
+
+- Setlist Page
+
+![Lighthouse setlist page desktop view](lighthouse/setlist-page-lighthouse.png)
+
+- Media Page
+
+![Lighthouse media page desktop view](lighthouse/media-page-lighthouse.png)
+
+- Tour Page
+
+![Lighthouse tour page desktop view](lighthouse/tour-page-lighthouse.png)
+
+- Contact Page
+
+![Lighthouse contact page desktop view](lighthouse/)
+
+### Mobile Results
+
+- Index Page
+
+![Lighthouse index page mobile view](lighthouse/)
+
+- Setlist Page
+
+![Lighthouse setlist page mobile view](lighthouse/mobile-setlist-page-lighthouse.png)
+
+- Media Page
+
+![Lighthouse media page mobile view](lighthouse/mobile-media-page-lighthouse.png)
+
+- Tour Page
+
+![Lighthouse tour page mobile view](lighthouse/mobile-tour-page-lighthouse.png)
+
+- Contact Page
+
+![Lighthouse contact page mobile view](lighthouse/)
+
+---
+
+## Manual Testing
+
+### Testing User Stories
+
+### Full Testing

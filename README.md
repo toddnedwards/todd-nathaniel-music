@@ -219,9 +219,32 @@ To fork the depository:
 
 ### Code Used
 
-### Conte
+For flex box coding, I used <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/> to solve my footer not being fixed to the bottom of the page.
+The code I used was:
 
-For all information provided, it was written by myself. All reviews are real reviews that I have received. All dates and tour dates links are also genuine, along with the social media links that linked to my social media pages.
+HTML:
+<body class="Site">
+  <header>…</header>
+  <main class="Site-content">…</main>
+  <footer>…</footer>
+</body>
+
+CSS:
+
+<.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}>
+
+
+### Content
+
+All information provided was written by myself. All reviews are real reviews that I have received. All dates and tour dates links are also genuine, along with the social media links that link to my social media pages.
 
 ### Media
 
@@ -233,6 +256,7 @@ I'd like to acknowledge the following people for helping me build this website.
 
 - Kera Cudmore for creating a great README.md example <https://docs.google.com/presentation/d/19_7r_To5bu7UjnZD87hrzWQi63Ij0YpaRH1XFnPZZe8/edit#slide=id.g1551aff15c5_1_96> that I have followed to create this README.md file.
 - For people in the slack community who are always there to help with coding queries that I have had.
+- For my mentor, Adegbenga for guiding me through issues I had with my site such as the footer section and breakpoints, and helping improve elements of the site to make it more user friendly.
 
 <https://docs.google.com/presentation/d/19_7r_To5bu7UjnZD87hrzWQi63Ij0YpaRH1XFnPZZe8/edit#slide=id.g1551aff15c5_1_0>
 
