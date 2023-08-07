@@ -122,15 +122,24 @@ The imagery will be images of the performer in different scenarios so potential 
 
 Wireframes we're creating using balsamiq.
 
-Home Page
+#### Home Page
+
 ![Home Page: index.html](assets/images/desktop%20main%20page.png "Home Page: index.html")
-Setlist Page
+
+#### Setlist Page
+
 ![Setlist Page: setlist.html](assets/images/desktop%20setlist%20page.png "Setlist Page: setlist.html")
-Media Page
+
+#### Media Page
+
 ![Media Page: media.html](assets/images/desktop%20media%20page.png "Media Page: media.html")
-Tour Page
+
+#### Tour Page
+
 ![Tour Page: tour.html](assets/images/desktop%20tour%20page.png "Tour Page: tour.html")
-Contact Page
+
+#### Contact Page
+
 ![Contact Page: contact.html](assets/images/desktop%20contact%20page.png "Contact Page: contact.html")
 
 ## Features
