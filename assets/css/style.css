@@ -42,8 +42,8 @@ header {
 
 #why-book-me {
 
-    background-color: #d7570d;
-    color: #ffffff
+    background-color: #ff6c16;
+    color: #000000;
 }
 
 /*-----Header-----*/
@@ -121,7 +121,8 @@ header {
 
 
 #why-book-me h3 {
-    color: #fff;
+    text-color: #000000;
+    font-weight:700;
 }
 
 #why-book-me h4 {
@@ -131,7 +132,6 @@ header {
 
 #why-book-me #reasons-left {
     width: 33%;
-    text-align: left;
 }
 
 #reasons-center {
@@ -217,7 +217,7 @@ footer {
 }
 
 .Site-content {
-  flex: 1;
+    flex: 1;
 }
 
 a:hover {
@@ -363,59 +363,75 @@ video {
 .responsive-video {
     max-width: 80%;
     height: auto;
+}
 
-    /*-----media queries-----*/
+/*-----media queries-----*/
 
-    @media screen and (max-width:992px) {
+@media screen and (max-width:992px) {
 
-        #why-book-me #reasons-left {
-            text-align: center;
-        }
-
-        #why-book-me #reasons-right {
-            text-align: center;
-        }
-
-        .about-me {
-            width: 80%;
-            margin: 0 auto;
-        }
-
+    #why-book-me {
+        text-align: center;
     }
 
-    @media (min-width: 320px) and (max-width: 480px) {
-
-        #why-book-me h4 {
-            margin-bottom: 10px;
-        }
-
-
-        .socials a i {
-            padding-right: 5px;
-        }
-
-        .cookies-privacy-link {
-            padding-left: 5px;
-        }
-
-        header {
-            height: auto;
-        }
-
-        .navbar-brand {
-            padding-left: 2em;
-        }
-
-        .header-title {
-            padding-top: 350px;
-        }
-
-        hr {
-            margin-top: 20px;
-        }
-
-
-        .center-form {
-            width: 70%
-        }
+    .about-me {
+        width: 80%;
+        margin: 0 auto;
     }
+
+    .center-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /*-----index.html-----*/
+    
+    #why-book-me h4 {
+        margin-bottom: 10px;
+    }
+
+    #why-book-me {
+        text-align: center;
+    }
+
+    /*-----all pages-----*/
+
+    .socials a i {
+        padding-right: 7px;
+    }
+
+    .cookies-privacy-link {
+        padding-left: 0px;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .navbar-brand {
+        padding-left: 2em;
+    }
+
+    .header-title {
+        padding: 350px 5px 0 5px;
+    }
+
+    hr {
+        margin-top: 20px;
+    }
+
+
+    footer {
+        padding: 30px 0;
+    }
+
+    /*-----Contact.html-----*/
+
+    .center-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
