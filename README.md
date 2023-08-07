@@ -4,7 +4,7 @@ Todd Nathaniel Music website is a responsive website that provides the user with
 
 ![Todd Nathaniel Music Responive website](assets/images/ToddNathanielWebsiteResponsive.png)
 
-[Named Link](https://github.com/toddnedwards/todd-nathaniel-music.git "View Todd Nathaniel Music Github pages")
+[View Todd Nathaniel Music Github pages](https://github.com/toddnedwards/todd-nathaniel-music.git "View Todd Nathaniel Music Github pages")
 
 ![Static Badge](https://img.shields.io/badge/Last_Commit-August-red)
 ![Static Badge](https://img.shields.io/badge/Contributors-1-blue)
@@ -98,12 +98,12 @@ This could potentially save the client time by seeing questions answered on the 
 
 ![Website Colour Scheme](assets/images/todd-nathaniel-music-colour-palette.png)
 
-The website uses bright and light colours using HEX numbers for more variety, and also RGB (1, 1, 90) as I wanted to add opacity to certain areas such as the header section (0.8 opacity), button hovering (0.5 opacity), horizontal rule (0.5 opacity) and the .timeline:after dots (0.8 opacity) to keep the style continuous to the header colour. I chose this palette to keep the website fun and vibrant so it stands out and attracts potential clients. The #000000 black will be used for text, as well as #ffffff white for coloured background sections such as the hero image text and the "why book me?" section to make it stand out more compared to black text and to also break up the page. The #FF7E33 orange is used for the background colour on the "why book me" section, the #FF0634 red will be used for the "why book me?" icons to make them stand out against the orange background. The #87B7FF light blue will be used for buttons and navigation background areas (pre hover) It will also be used as the static colour for the social media icons. The colour palette was created using the Coolors website.
+The website uses bright and light colours using HEX numbers for more variety, and also RGB (1, 1, 90) as I wanted to add opacity to certain areas such as the header section (0.8 opacity) with this I later decided that some text was not clear enough with the opacity from the navigation bar which needed to be clear to viewers at all times, but I didn't want to change the colour scheme, so instead simply set the opacity to 1 instead of 0.8. Button hovering i used 0.5 opacity, horizontal rule 0.5 opacity and the .timeline:after dots 0.8 opacity to keep the style continuous to the header colour. I chose this palette to keep the website fun and vibrant so it stands out and attracts potential clients. The #000000 black will be used for text, as well as #ffffff white for coloured background sections such as the hero image text and the "why book me?" section to make it stand out more compared to black text and to also break up the page. The #FF7E33 orange is used for the background colour on the "why book me" section, the #FF0634 red will be used for the "why book me?" icons to make them stand out against the orange background. The #87B7FF light blue will be used for buttons and navigation background areas (pre hover) It will also be used as the static colour for the social media icons. The colour palette was created using the Coolors website.
 
 For the HEX codes for the social media hover states, I used google to find out the HEX colours to match the social media"s colours of their logos. These are the colours that google suggested:
 
 Facebook logo: #3b5998
-Instagram logo (purple part): #962fbf
+Instagram logo (purple colour from the instagram logo): #962fbf
 Youtube logo: #c4302b
 
 ### Typography
@@ -122,10 +122,15 @@ The imagery will be images of the performer in different scenarios so potential 
 
 Wireframes we're creating using balsamiq.
 
+Home Page
 ![Home Page: index.html](assets/images/desktop%20main%20page.png "Home Page: index.html")
+Setlist Page
 ![Setlist Page: setlist.html](assets/images/desktop%20setlist%20page.png "Setlist Page: setlist.html")
+Media Page
 ![Media Page: media.html](assets/images/desktop%20media%20page.png "Media Page: media.html")
+Tour Page
 ![Tour Page: tour.html](assets/images/desktop%20tour%20page.png "Tour Page: tour.html")
+Contact Page
 ![Contact Page: contact.html](assets/images/desktop%20contact%20page.png "Contact Page: contact.html")
 
 ## Features
@@ -213,7 +218,7 @@ To fork the depository:
 
 ## Testing
 
-[Named Link](/TESTING.md "View TESTING.md page")
+[View TESTING.md page](/TESTING.md "View TESTING.md page")
 
 ## Credits
 
@@ -223,15 +228,15 @@ For flex box coding, I used <https://philipwalton.github.io/solved-by-flexbox/de
 The code I used was:
 
 HTML:
-<body class="Site">
+'body class="Site">
   <header>…</header>
   <main class="Site-content">…</main>
   <footer>…</footer>
-</body>
+</body'
 
 CSS:
 
-<.Site {
+'.Site {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -239,7 +244,7 @@ CSS:
 
 .Site-content {
   flex: 1;
-}>
+}'
 
 
 ### Content

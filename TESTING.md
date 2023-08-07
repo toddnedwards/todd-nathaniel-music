@@ -7,12 +7,12 @@
 - [Automated Testing]{#automated-testing}
   - [W3c Validator]{#W3c-validator}
   - [Lighthouse]{#Lighthouse}
-- Manual Testing
-  - Testing User Stories
-  - Full Testing
-- Bugs
-  - Known Bugs
-  - Solved Bugs
+- [Manual Testing]{#manual-testing}
+  - [Testing User Stories]{#testing-user-stories}
+  - [Full Testing]{#full-testing}
+- [Bugs]{#bugs}
+  - [Known Bugs]{#known-bugs}
+  - [Solved Bugs]{#solved-bugs}
 
 ---
 
@@ -56,7 +56,7 @@ Contact.html-
 
 - Index Page
 
-![Lighthouse index page desktop view](lighthouse/)
+![Lighthouse index page desktop view](lighthouse/index-page-lighthouse.png)
 
 - Setlist Page
 
@@ -72,13 +72,13 @@ Contact.html-
 
 - Contact Page
 
-![Lighthouse contact page desktop view](lighthouse/)
+![Lighthouse contact page desktop view](lighthouse/contact-page-lighthouse.png)
 
 ### Mobile Results
 
 - Index Page
 
-![Lighthouse index page mobile view](lighthouse/)
+![Lighthouse index page mobile view](lighthouse/mobile-index-page-lighthouse.png)
 
 - Setlist Page
 
@@ -94,7 +94,7 @@ Contact.html-
 
 - Contact Page
 
-![Lighthouse contact page mobile view](lighthouse/)
+![Lighthouse contact page mobile view](lighthouse/mobile-contact-page-lighthouse.png)
 
 ---
 
