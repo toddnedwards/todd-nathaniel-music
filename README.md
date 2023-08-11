@@ -26,6 +26,11 @@ Todd Nathaniel Music website is a responsive website that provides the user with
     - [Typography](#typography)
     - [Imagery](#imagery)
     - [Wireframes](#wireframes)
+      - [Home Page](#home-page)
+      - [Setlist Page](#setlist-page)
+      - [Media Page](#media-page)
+      - [Tour Page](#tour-page)
+      - [Contact Page](#contact-page)
   - [Features](#features)
     - [General Features On Each Page](#general-features-on-each-page)
       - [Home](#home)
@@ -45,8 +50,8 @@ Todd Nathaniel Music website is a responsive website that provides the user with
   - [Testing](#testing)
   - [Credits](#credits)
     - [Code Used](#code-used)
-    - [Conte](#conte)
-    - [Media](#media-1)
+    - [Content](#content)
+    - [Media](#media)
     - [Acknowledgments](#acknowledgments)
 
 ### Initial Discussion

@@ -93,6 +93,15 @@ header {
 
 /*-----navigation-----*/
 
+.navbar-nav {
+    padding-right: 15px;
+}
+
+
+.navbar-toggler-icon {
+    margin-right: 10px;
+}
+
 /*-----Hero image-----*/
 
 #bg-hero-image {
@@ -121,7 +130,7 @@ header {
 
 
 #why-book-me h3 {
-    text-color: #000000;
+    color: #000000;
     font-weight:  700;
 }
 
@@ -421,7 +430,7 @@ video {
     .navbar-brand {
         padding-left: 2em;
     }
-
+5px
     .header-title {
         padding: 350px 5px 0 5px;
     }
@@ -442,12 +451,4 @@ video {
         margin: 0 auto;
     }
 
-    #navbarNavDropdown {
-        margin-right: 20px;
-    }
-
-
-
-    .navbar-toggler {
-        margin-right: 15px;
-    }}
+}
