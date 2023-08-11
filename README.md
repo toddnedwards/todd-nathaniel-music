@@ -237,15 +237,15 @@ For flex box coding, I used <https://philipwalton.github.io/solved-by-flexbox/de
 The code I used was:
 
 HTML:
-'body class="Site">
+'''body class="Site">
   <header>…</header>
   <main class="Site-content">…</main>
   <footer>…</footer>
-</body'
+</body'''
 
 CSS:
 
-'.Site {
+'''.Site {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -253,7 +253,7 @@ CSS:
 
 .Site-content {
   flex: 1;
-}'
+}'''
 
 
 ### Content
@@ -274,7 +274,7 @@ I'd like to acknowledge the following people for helping me build this website.
 
 <https://docs.google.com/presentation/d/19_7r_To5bu7UjnZD87hrzWQi63Ij0YpaRH1XFnPZZe8/edit#slide=id.g1551aff15c5_1_0>
 
-I used this mark up cheat sheet that I found on the slack community:
+I used this mark up cheat sheet that I found on the slack community for clear guidance on how to create layouts for this readme file:
 
 <https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md>
 

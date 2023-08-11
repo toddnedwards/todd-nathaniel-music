@@ -161,6 +161,15 @@ header {
     width: 33%;
 }
 
+#reasons-right h4 {
+    color: #000000;
+}
+
+#reasons-left h4 {
+    color: #000000;
+}
+
+
 /*-----reviews-----*/
 
 .reviews {
@@ -193,7 +202,7 @@ footer {
 
 .cookies-privacy-link {
     padding-left: 50px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .socials-fb:hover {
