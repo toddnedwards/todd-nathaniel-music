@@ -234,27 +234,6 @@ To fork the depository:
 ### Code Used
 
 For flex box coding, I used <https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/> to solve my footer not being fixed to the bottom of the page.
-The code I used was:
-
-HTML:
-'''body class="Site">
-  <header>…</header>
-  <main class="Site-content">…</main>
-  <footer>…</footer>
-</body'''
-
-CSS:
-
-'''.Site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.Site-content {
-  flex: 1;
-}'''
-
 
 ### Content
 
