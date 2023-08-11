@@ -4,13 +4,13 @@
 
 ## Contents
 
-- [Automated Testing]{#automated-testing}
-  - [W3c Validator]{#W3c-validator}
-  - [Lighthouse]{#Lighthouse}
-- [Manual Testing]{#manual-testing}
-  - [Testing User Stories]{#testing-user-stories}
-  - [Full Testing]{#full-testing}
-- [Bugs]{#bugs}
+- [Automated Testing](#automated-testing)
+  - [W3c Validator](#W3c-validator)
+  - [Lighthouse](#Lighthouse)
+- [Manual Testing](#manual-testing)
+  - [Testing User Stories](#testing-user-stories)
+  - [Full Testing](#full-testing)
+- [Bugs](#bugs)
 
 ---
 
