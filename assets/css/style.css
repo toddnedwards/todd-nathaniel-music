@@ -402,7 +402,7 @@ video {
     }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 280px) and (max-width: 480px) {
 
     /*-----index.html-----*/
     #why-book-me h4 {
@@ -413,10 +413,14 @@ video {
         text-align: center;
     }
 
+    #bg-hero-image {
+        height: auto;
+    }
+
     /*-----all pages-----*/
 
     .socials a i {
-        padding-right: 7px;
+        padding-right: 5px;
     }
 
     .cookies-privacy-link {
@@ -436,7 +440,8 @@ video {
     }
 
     hr {
-        margin-top: 20px;
+        visibility: hidden;
+
     }
 
 
@@ -451,4 +456,9 @@ video {
         margin: 0 auto;
     }
 
+     /*-----setlist.html-----*/
+
+    .setlist-download a {
+        font-size: 25px;
+    }
 }
