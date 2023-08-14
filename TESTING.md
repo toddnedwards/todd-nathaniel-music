@@ -99,8 +99,8 @@ Contact.html-
 I used axe dev tools to see if further errors we're found on my pages.
 
 - Index Page
-I found on the index page that there was an error for sufficient contrast ratio. I fixed this by changing all text in the "why book me?" section from white to black. 
-I also found that my headers we're not in order for using h1, h2, h3 etc, so I changed the header title to H1 and the about me section to h2. This fixed the problems and still worked well with the sizings for the page so no further styling elements we're needed.
+  I found on the index page that there was an error for sufficient contrast ratio. I fixed this by changing all text in the "why book me?" section from white to black.
+  I also found that my headers we're not in order for using h1, h2, h3 etc, so I changed the header title to H1 and the about me section to h2. This fixed the problems and still worked well with the sizings for the page so no further styling elements we're needed.
 
 No other errors we're found on other pages.
 
@@ -115,7 +115,7 @@ Home > Setlist > Media > Tour > Contact
 
 These are the order they are placed in the navigation bar and are accessible from each page.
 
-Each page is important to a potential client booking the musician as they need to know about the musician from the home page, what songs they play from the setlist, want to see and hear the artist from the media page. If they like this information but would like to see a performance, they may look at tour dates to come and see the artist. If they they want to directly enquire after that or simply message instead with an enquiry they can go straight to contact page. 
+Each page is important to a potential client booking the musician as they need to know about the musician from the home page, what songs they play from the setlist, want to see and hear the artist from the media page. If they like this information but would like to see a performance, they may look at tour dates to come and see the artist. If they they want to directly enquire after that or simply message instead with an enquiry they can go straight to contact page.
 
 #### Testing client stories from UX section of README.md
 
@@ -140,7 +140,7 @@ Reviews are provided on the index.html page underneath the "why book me?" sectio
 
 5. To allow people to visit social media pages also from the site with icons.
 
-Social media links are provided on the footer section of every page. They also utilise the '_blank' element to open the social media link in a new page to not take the attention away from the website.
+Social media links are provided on the footer section of every page. They also utilise the '\_blank' element to open the social media link in a new page to not take the attention away from the website.
 
 ##### First Time Visitor Goals
 
@@ -185,7 +185,7 @@ New songs, videos and images can be uploaded directly to the media.html section 
 Full testing was performed on the following devices:
 
 Laptop: Macbook Pro 2018 16 inch screen
-        Imac 2019 27 inch screen
+Imac 2019 27 inch screen
 
 Mobile Devices:
 Samsung Galaxy S21
@@ -199,7 +199,6 @@ Internet (android)
 Microsoft Edge
 
 Additional testing was provided by friends and family that I sent the website too, who reported no issues or errors with the site.
-
 
 #### Navigation Bar:
 
@@ -234,7 +233,7 @@ Additional testing was provided by friends and family that I sent the website to
 #### Tour
 
 - Provide Tour Dates: Passed (3 columns showing monthly dates in a row)
-- Links working to click on external ticket purchases: Passed (Both links on two events working correctly and using '_blank' to not take attention away from main site)
+- Links working to click on external ticket purchases: Passed (Both links on two events working correctly and using '\_blank' to not take attention away from main site)
 
 #### Contact
 
@@ -242,6 +241,6 @@ Additional testing was provided by friends and family that I sent the website to
 - Link to email address externally redirects to users default mail app: Passed
 - Contact form is responsive: Passed
 
-## Bugs 
+## Bugs
 
 All bugs are described throughout the readme.md document.
