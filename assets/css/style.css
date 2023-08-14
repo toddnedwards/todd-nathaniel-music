@@ -131,7 +131,7 @@ header {
 
 #why-book-me h3 {
     color: #000000;
-    font-weight:  700;
+    font-weight: 700;
 }
 
 #why-book-me h4 {
@@ -432,11 +432,11 @@ video {
     }
 
     .navbar-brand {
-        padding-left: 2em;
+        padding-left: 5px;
     }
-5px
+
     .header-title {
-        padding: 350px 5px 0 5px;
+        padding-top: 320px;
     }
 
     hr {
@@ -456,7 +456,7 @@ video {
         margin: 0 auto;
     }
 
-     /*-----setlist.html-----*/
+    /*-----setlist.html-----*/
 
     .setlist-download a {
         font-size: 25px;
