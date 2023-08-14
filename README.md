@@ -5,6 +5,7 @@ Todd Nathaniel Music website is a responsive website that provides the user with
 ![Todd Nathaniel Music Responive website](assets/images/ToddNathanielWebsiteResponsive.png)
 
 [View Todd Nathaniel Music Github pages](https://github.com/toddnedwards/todd-nathaniel-music.git "View Todd Nathaniel Music Github pages")
+[View Todd Nathaniel Music Website](https://toddnedwards.github.io/todd-nathaniel-music/index.html "View Todd Nathaniel Music Website")
 
 ![Static Badge](https://img.shields.io/badge/Last_Commit-August-red)
 ![Static Badge](https://img.shields.io/badge/Contributors-1-blue)
@@ -253,6 +254,7 @@ All media used is from my own personal material that I use for promotional purpo
 I'd like to acknowledge the following people for helping me build this website.
 
 - Kera Cudmore for creating a great README.md example <https://docs.google.com/presentation/d/19_7r_To5bu7UjnZD87hrzWQi63Ij0YpaRH1XFnPZZe8/edit#slide=id.g1551aff15c5_1_96> that I have followed to create this README.md file.
+- To Derek King in the slack community for helping me with my breakpoints media queries to optimise the index.html h1 heading and for correct spacing in the footer section.
 - For people in the slack community who are always there to help with coding queries that I have had.
 - For my mentor, Adegbenga for guiding me through issues I had with my site such as the footer section and breakpoints, and helping improve elements of the site to make it more user friendly.
 
