@@ -278,9 +278,10 @@ hr {
 }
 
 .contact-table {
-    margin: 30px auto;
-    text-align: left;
+
+    text-align: center;
 }
+
 
 
 .top-page-title {
@@ -454,6 +455,10 @@ video {
     .center-form {
         width: 80%;
         margin: 0 auto;
+    }
+
+    .contact-us h2 {
+        padding: 0 5px 0 5px;
     }
 
     /*-----setlist.html-----*/
