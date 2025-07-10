@@ -42,8 +42,8 @@ header {
 
 #why-book-me {
 
-    background-color: #ff6c16;
-    color: #000000;
+    background-color:rgb(252, 136, 68);
+    color:rgb(0, 0, 0);
 }
 
 /*-----Header-----*/
@@ -159,7 +159,7 @@ header {
 
     font-size: 40px;
     margin-bottom: 20px;
-    color: #979797;
+    color:rgb(255, 255, 255);
 }
 
 .why-book-me-title {
